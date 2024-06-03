@@ -1,0 +1,67 @@
+/* AddProductForm.module.css */
+
+.add_product_form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 300px;
+    top: 40%;
+    left: 45%;
+    position: fixed;
+    color: black;
+  }
+  
+  .add_product_form h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  
+  /* For small screens (e.g., mobile devices) */
+  @media (max-width: 767px) {
+    .add_product_form {
+        top: 30%;
+        left: 5%;
+    }
+  }
+  
+  /* For medium screens (e.g., tablets) */
+  /* @media (min-width: 768px) and (max-width: 1023px) {
+    .add_product_form {
+      z-index: 2;
+    }
+  } */
+  
+  /* For large screens (e.g., desktops) */
+  /* @media (min-width: 1024px) {
+    .add_product_form {
+      z-index: 3;
+    }
+  } */
+  

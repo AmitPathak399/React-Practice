@@ -1,0 +1,20 @@
+/* RecipeList.module.css */
+
+/* RecipeList.module.css */
+
+.recipeList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .recipeList {
+      grid-template-columns: 1fr; /* Single column layout for smaller screens */
+    }
+  }
+  
+  

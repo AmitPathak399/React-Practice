@@ -1,0 +1,36 @@
+/* Button.module.css */
+
+.button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .green {
+    background-color: #4CAF50; 
+  }
+  
+  .blue {
+    background-color: #2196F3; 
+  }
+  
+  .orange {
+    background-color: #FF5722;
+  }
+  
+  .green:hover{
+    background-color: #0c8012;
+  }
+  
+  .blue:hover {
+    background-color: #193bd2;
+  }
+  
+  .orange:hover {
+    background-color: #e62719;
+  }  
